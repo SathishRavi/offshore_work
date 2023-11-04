@@ -1,0 +1,35 @@
+.copy-rights {
+    background: #fff;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 0;
+    line-height: 45px;
+    border-bottom: 1px solid #2E2E2E;
+}
+.copy-menu {
+    list-style-type: none;
+    font-size: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.instruction {
+    background: #000;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 10px;
+    line-height: 45px;
+    border-bottom: 1px solid #2E2E2E;
+}
+@media (max-width: 767px) {
+    .copy-rights{
+        padding: 0px;
+        line-height: 28px;
+    }
+    .copy-menu {
+        display: block;
+        padding: 10px;
+    }
+}
