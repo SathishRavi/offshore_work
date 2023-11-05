@@ -10,9 +10,7 @@ export const Client = () => {
   return (
     <div> 
       <Navbar/>
-      <div className='client-header' >
-        <h1>Client</h1>
-      </div>
+      
     <Footer/>
     </div>
   )
